@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "162075062709",
+    "project_id": "safetour-ai-5cda1",
+    "storage_bucket": "safetour-ai-5cda1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162075062709:android:9c7c8d5bf5f3a655a0a9fc",
+        "android_client_info": {
+          "package_name": "com.safetour.ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuy-4LXMX4qKj6QrYgQDjGUrwd66aGTck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Legacy Core -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="off_white">#F8F9FA</color>
+    <color name="crimson_red">#D32F2F</color>
+    <color name="electric_blue">#007AFF</color>
+    <color name="glass_white">#D9FFFFFF</color>
+    <color name="glass_dark">#D9121212</color>
+    <color name="grey_400">#BDBDBD</color>
+
+    <!-- Semantic App Theme Tokens (Light Mode Core) -->
+    <color name="theme_primary_bg">#F2F3F5</color>
+    <color name="theme_map_bg">#EBE8E2</color>
+    <color name="theme_surface_premium">#FFFFFF</color>
+    <color name="theme_surface_secondary">#F8F7F3</color>
+    <color name="theme_surface_cream">#F0EFEA</color>
+    
+    <color name="theme_text_primary">#1F1F1F</color>
+    <color name="theme_text_secondary">#757575</color>
+    <color name="theme_text_hint">#6F6E6C</color>
+    
+    <color name="theme_icon_primary">#1F1F1F</color>
+    <color name="theme_icon_secondary">#6F6E6C</color>
+    
+    <color name="theme_divider">#EAEAEA</color>
+    <color name="theme_divider_dark">#D0CEC8</color>
+    
+    <color name="theme_chip_selected_bg">#A8C7FA</color>
+    <color name="theme_chip_selected_text">#041E49</color>
+    <color name="theme_chip_selected_stroke">#0A56D1</color>
+    
+    <color name="theme_chip_unselected_bg">#F8F7F3</color>
+    <color name="theme_chip_unselected_text">#1F1F1F</color>
+    <color name="theme_chip_unselected_stroke">#EAE8E2</color>
+
+    <color name="theme_chat_bubble_ai">#FFFFFF</color>
+    <color name="theme_chat_bubble_user">#0A7AF5</color>
+    <color name="theme_chat_text_ai">#1F1F1F</color>
+    <color name="theme_chat_text_user">#FFFFFF</color>
+    <color name="theme_chat_time">#8E8E93</color>
+
+    <color name="theme_placeholder">#E0E0E0</color>
+</resources>

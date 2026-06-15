@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="crimson_red">#D32F2F</color>
+    <color name="electric_blue">#007AFF</color>
+    <color name="glass_dark">#D9121212</color>
+    <color name="glass_white">#D9FFFFFF</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="off_white">#F8F9FA</color>
+    <color name="theme_chat_bubble_ai">#FFFFFF</color>
+    <color name="theme_chat_bubble_user">#0A7AF5</color>
+    <color name="theme_chat_text_ai">#1F1F1F</color>
+    <color name="theme_chat_text_user">#FFFFFF</color>
+    <color name="theme_chat_time">#8E8E93</color>
+    <color name="theme_chip_selected_bg">#A8C7FA</color>
+    <color name="theme_chip_selected_stroke">#0A56D1</color>
+    <color name="theme_chip_selected_text">#041E49</color>
+    <color name="theme_chip_unselected_bg">#F8F7F3</color>
+    <color name="theme_chip_unselected_stroke">#EAE8E2</color>
+    <color name="theme_chip_unselected_text">#1F1F1F</color>
+    <color name="theme_divider">#EAEAEA</color>
+    <color name="theme_divider_dark">#D0CEC8</color>
+    <color name="theme_icon_primary">#1F1F1F</color>
+    <color name="theme_icon_secondary">#6F6E6C</color>
+    <color name="theme_map_bg">#EBE8E2</color>
+    <color name="theme_placeholder">#E0E0E0</color>
+    <color name="theme_primary_bg">#F2F3F5</color>
+    <color name="theme_surface_cream">#F0EFEA</color>
+    <color name="theme_surface_premium">#FFFFFF</color>
+    <color name="theme_surface_secondary">#F8F7F3</color>
+    <color name="theme_text_hint">#6F6E6C</color>
+    <color name="theme_text_primary">#1F1F1F</color>
+    <color name="theme_text_secondary">#757575</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">SafeTour AI</string>
+    <string name="default_web_client_id" translatable="false">162075062709-kkj0uhqia7r7emb4mqql16o413bmnaid.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">162075062709</string>
+    <string name="google_api_key" translatable="false">AIzaSyAuy-4LXMX4qKj6QrYgQDjGUrwd66aGTck</string>
+    <string name="google_app_id" translatable="false">1:162075062709:android:9c7c8d5bf5f3a655a0a9fc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAuy-4LXMX4qKj6QrYgQDjGUrwd66aGTck</string>
+    <string name="google_storage_bucket" translatable="false">safetour-ai-5cda1.firebasestorage.app</string>
+    <string name="project_id" translatable="false">safetour-ai-5cda1</string>
+    <style name="Base.Theme.SafeTourAI" parent="Theme.Material3.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/electric_blue</item>
+        <item name="colorSecondary">@color/crimson_red</item>
+        <item name="android:statusBarColor">@color/off_white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="ShapeAppearance.SafeTour.ChatAi" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+        <item name="cornerSizeBottomLeft">4dp</item>
+    </style>
+    <style name="ShapeAppearance.SafeTour.ChatUser" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+        <item name="cornerSizeBottomRight">4dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="Theme.SafeTourAI" parent="Base.Theme.SafeTourAI"/>
+</resources>

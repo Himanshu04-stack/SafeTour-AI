@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:background="@color/theme_primary_bg">
+
+    <!-- OSMDroid Background -->
+    <org.osmdroid.views.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+        
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A0FFFFFF"
+        android:elevation="0dp" />
+
+    <!-- Status Card -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="32dp"
+        app:cardBackgroundColor="@color/theme_surface_secondary"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="24dp"
+        android:outlineSpotShadowColor="#50000000"
+        android:outlineAmbientShadowColor="#20000000"
+        app:strokeWidth="0dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="start">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    
+                    <FrameLayout
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginEnd="8dp">
+                        
+                        <View
+                            android:id="@+id/statusDotRipple"
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/bg_safetourai_home_indicator"
+                            android:backgroundTint="#81C784" />
+                            
+                        <View
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/bg_safetourai_home_indicator"
+                            android:backgroundTint="#4CAF50" />
+                    </FrameLayout>
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Status: "
+                        android:textColor="@color/theme_text_primary"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Safe "
+                        android:textColor="#388E3C"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvStatusCity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="in New Delhi"
+                        android:textColor="@color/theme_text_primary"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvStatusLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="32dp"
+                    android:text="Current Location: New Delhi, IN"
+                    android:textColor="#5E5E5E"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Location Text -->
+    <TextView
+        android:id="@+id/tvLocationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Hauz Khas, New Delhi"
+        android:textColor="@color/theme_text_primary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/cardStatus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLocationSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="📍 Updated 1 min ago"
+        android:textColor="@color/theme_text_secondary"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/tvLocationTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Huge SOS Button Container -->
+    <FrameLayout
+        android:id="@+id/sosContainer"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        app:layout_constraintTop_toBottomOf="@id/tvLocationSubtitle"
+        app:layout_constraintBottom_toTopOf="@id/bottomActionsOverlay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Static Outer Glow/Pulse Ring -->
+        <View
+            android:id="@+id/sosOuterGlow"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_pulse_ring"
+            android:backgroundTint="#1AD32F2F" />
+            
+        <!-- Activated Ripples (Hidden Initially) -->
+        <View
+            android:id="@+id/sosRipple1"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_pulse_ring"
+            android:backgroundTint="#80D32F2F"
+            android:visibility="invisible" />
+            
+        <View
+            android:id="@+id/sosRipple2"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_pulse_ring"
+            android:backgroundTint="#60D32F2F"
+            android:visibility="invisible" />
+
+        <View
+            android:layout_width="268dp"
+            android:layout_height="268dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_pulse_ring"
+            android:backgroundTint="#2FD32F2F" />
+
+        <!-- Actual progress ring if we still want holding animation -->
+        <ProgressBar
+            android:id="@+id/sosProgressRing"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:progressDrawable="@drawable/bg_pulse_ring"
+            android:max="1000"
+            android:progress="0" />
+
+        <!-- White Ring Background -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="28dp"
+            android:elevation="12dp"
+            android:background="@drawable/bg_sos_white_ring" />
+            
+        <!-- Inner Red Gradient Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="34dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/bg_sos_inner"
+            android:stateListAnimator="@null"
+            android:text="SOS"
+            android:textSize="56sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:elevation="16dp"
+            app:rippleColor="#40FFFFFF" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvHoldText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hold for 3 seconds"
+        android:textColor="@color/theme_text_secondary"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/sosContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Bottom Interface elements (Quick Alerts & Safe Circle) -->
+    <LinearLayout
+        android:id="@+id/bottomActionsOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginHorizontal="16dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:id="@+id/llQuickAlerts"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center">
+            
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_megaphone"
+                app:tint="@color/theme_icon_primary" />
+                
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Quick Alerts"
+                android:textColor="@color/theme_text_primary"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+                
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alert chosen contacts"
+                android:textColor="@color/theme_text_secondary"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="8dp"
+            android:background="#E0E0E0"/>
+
+        <LinearLayout
+            android:id="@+id/llSafeCircle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="32dp">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="start|center_vertical"
+                    android:background="@drawable/bg_circle_grey"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_nav_profile"
+                    app:tint="#4A4A4A" />
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="start|center_vertical"
+                    android:layout_marginStart="44dp"
+                    android:background="@drawable/bg_circle_grey"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_nav_profile"
+                    app:tint="#4A4A4A" />
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="start|center_vertical"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/bg_circle_red"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_nav_profile"
+                    app:tint="#77212E"
+                    android:elevation="4dp" />
+
+            </FrameLayout>
+                
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="My Safe Circle"
+                android:textColor="@color/theme_text_primary"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+                
+            <TextView
+                android:id="@+id/tvSafeCircleMonitoring"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 contacts monitoring"
+                android:textColor="@color/theme_text_secondary"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

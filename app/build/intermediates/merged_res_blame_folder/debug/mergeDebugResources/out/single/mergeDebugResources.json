@@ -1,0 +1,314 @@
+[
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_sos_inner.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_sos_inner.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_layout_settings_language.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/layout_settings_language.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_fragment_explore.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/fragment_explore.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_fragment_profile.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/anim_fade_through_in.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/anim/fade_through_in.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_ic_nav_home.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/ic_nav_home.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/anim_slide_up_in.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/anim/slide_up_in.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_fragment_setup.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/fragment_setup.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/color_bottom_nav_color.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/color/bottom_nav_color.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_item_chat_user.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/item_chat_user.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/animator_lift_on_touch.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/animator/lift_on_touch.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_fragment_login.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_safetourai_home_indicator.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_safetourai_home_indicator.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_layout_settings_notifications.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/layout_settings_notifications.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/anim_fade_through_out.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/anim/fade_through_out.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_activity_main.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_item_explore_card.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/item_explore_card.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_layout_settings_data.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/layout_settings_data.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_dialog_edit_contacts.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/dialog_edit_contacts.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_ic_moon.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/ic_moon.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_fragment_splash.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/fragment_splash.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_circle_premium.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_circle_premium.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_passport_placeholder.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_passport_placeholder.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_ic_megaphone.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/ic_megaphone.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_chat_user.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_chat_user.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_sos_white_ring.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_sos_white_ring.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_capsule_thumb.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_capsule_thumb.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_search_premium.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_search_premium.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_item_chat_history_drawer.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/item_chat_history_drawer.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_chat_input.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_chat_input.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_button_outline.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_button_outline.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_ic_nav_profile.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/ic_nav_profile.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_fragment_home.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_home_gradient.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_home_gradient.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_ic_nav_safe_zones.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/ic_nav_safe_zones.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_layout_settings_privacy.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/layout_settings_privacy.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/anim_fade_out.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/anim/fade_out.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/navigation_nav_graph.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_ic_safetour_logo.png.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/ic_safetour_logo.png"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_bento_card.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_bento_card.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_splash_city_map.png.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_splash_city_map.png"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_progress_ring.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_progress_ring.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_fragment_track.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/fragment_track.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_safe_badge.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_safe_badge.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/anim_breathe.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/anim/breathe.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_activity_live_tracking.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/activity_live_tracking.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_item_chat_ai.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/item_chat_ai.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/anim_slide_down_out.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/anim/slide_down_out.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_pill_grey.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_pill_grey.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_circle_grey.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_circle_grey.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_layout_bottom_sheet_settings.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/layout_bottom_sheet_settings.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_map_placeholder.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_map_placeholder.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/anim_fade_in.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_chat_ai.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_chat_ai.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_button_gradient.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_button_gradient.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_status_gradient.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_status_gradient.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_ic_nav_assistant.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/ic_nav_assistant.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_ic_sun.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/ic_sun.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_splash_liquid_glass.png.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_splash_liquid_glass.png"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/layout_fragment_assistant.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/layout/fragment_assistant.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_circle_red.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_circle_red.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_search_bar.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_search_bar.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_bottom_sheet_rounded.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_bottom_sheet_rounded.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_capsule_toggle.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_capsule_toggle.xml"
+    },
+    {
+        "merged": "com.safetour.ai.app-debug-56:/drawable_bg_pulse_ring.xml.flat",
+        "source": "com.safetour.ai.app-main-58:/drawable/bg_pulse_ring.xml"
+    }
+]

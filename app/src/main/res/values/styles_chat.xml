@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Staggered Chat Bubble iOS Styling -->
+    <style name="ShapeAppearance.SafeTour.ChatUser" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+        <item name="cornerSizeBottomRight">4dp</item>
+    </style>
+    
+    <style name="ShapeAppearance.SafeTour.ChatAi" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+        <item name="cornerSizeBottomLeft">4dp</item>
+    </style>
+
+    <!-- Circular Avatar Mask -->
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

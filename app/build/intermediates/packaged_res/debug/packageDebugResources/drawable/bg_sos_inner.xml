@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- Smooth radial gradient fading to a darker edge for a natural concave shadow -->
+    <gradient
+        android:type="radial"
+        android:gradientRadius="135dp"
+        android:startColor="#E53935"
+        android:centerColor="#C62828"
+        android:endColor="#4A0000" />
+</shape>

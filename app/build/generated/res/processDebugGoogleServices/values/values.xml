@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">162075062709-kkj0uhqia7r7emb4mqql16o413bmnaid.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">162075062709</string>
+    <string name="google_api_key" translatable="false">AIzaSyAuy-4LXMX4qKj6QrYgQDjGUrwd66aGTck</string>
+    <string name="google_app_id" translatable="false">1:162075062709:android:9c7c8d5bf5f3a655a0a9fc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAuy-4LXMX4qKj6QrYgQDjGUrwd66aGTck</string>
+    <string name="google_storage_bucket" translatable="false">safetour-ai-5cda1.firebasestorage.app</string>
+    <string name="project_id" translatable="false">safetour-ai-5cda1</string>
+</resources>
