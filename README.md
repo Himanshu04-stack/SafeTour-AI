@@ -3,7 +3,7 @@
 ### An Intelligent Location-Based Safety and Navigation Application for Android
 
 [![Android](https://img.shields.io/badge/Platform-Android%2013%2B-brightgreen?logo=android)](https://developer.android.com)
-[![Kotlin](https://img.shields.io/badge/Language-Kotlin-purple?logo=kotlin)](https://kotlinlang.org)
+[![JAVA](https://img.shields.io/badge/Language-Kotlin-purple?logo=kotlin)](https://kotlinlang.org)
 [![OSMDroid](https://img.shields.io/badge/Maps-OSMDroid-blue)](https://github.com/osmdroid/osmdroid)
 [![Firebase](https://img.shields.io/badge/Backend-Firebase-orange?logo=firebase)](https://firebase.google.com)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
