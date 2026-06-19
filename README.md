@@ -3,13 +3,13 @@
 ### An Intelligent Location-Based Safety and Navigation Application for Android
 
 [![Android](https://img.shields.io/badge/Platform-Android%2013%2B-brightgreen?logo=android)](https://developer.android.com)
-[![JAVA](https://img.shields.io/badge/Language-Kotlin-purple?logo=kotlin)](https://kotlinlang.org)
+[![JAVA](https://img.shields.io/badge/Language-JAVA-purple?logo=JAVA)](https://kotlinlang.org)
 [![OSMDroid](https://img.shields.io/badge/Maps-OSMDroid-blue)](https://github.com/osmdroid/osmdroid)
 [![Firebase](https://img.shields.io/badge/Backend-Firebase-orange?logo=firebase)](https://firebase.google.com)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 [![B.Tech Project](https://img.shields.io/badge/B.Tech-Final%20Year%20Project-red)](https://www.srmist.edu.in)
 
-*B.Tech Final Year Project — SRM Institute of Science and Technology, 2025–26*
+*B.Tech Final Year Project — SRM University Delhi NCR, 2025–26*
 
 ## 📖 Overview
 
