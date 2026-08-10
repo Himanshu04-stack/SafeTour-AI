@@ -1,5 +1,7 @@
 # 🛡️ SafeTour AI
 
+https://appetize.io/app/b_no3dxvdyhhovqarnssc6w76hri
+
 ### An Intelligent Location-Based Safety and Navigation Application for Android
 
 [![Android](https://img.shields.io/badge/Platform-Android%2013%2B-brightgreen?logo=android)](https://developer.android.com)
